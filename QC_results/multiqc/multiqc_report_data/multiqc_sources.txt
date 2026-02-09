@@ -1,0 +1,12 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR8668772	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668772_fastqc.zip
+FastQC	all_sections	SRR8668771	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668771_fastqc.zip
+FastQC	all_sections	SRR8668769	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668769_fastqc.zip
+FastQC	all_sections	SRR8668774	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668774_fastqc.zip
+FastQC	all_sections	SRR8668756	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668756_fastqc.zip
+FastQC	all_sections	SRR8668773	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668773_fastqc.zip
+FastQC	all_sections	SRR8668759	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668759_fastqc.zip
+FastQC	all_sections	SRR8668758	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668758_fastqc.zip
+FastQC	all_sections	SRR8668757	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668757_fastqc.zip
+FastQC	all_sections	SRR8668755	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668755_fastqc.zip
+FastQC	all_sections	SRR8668755_1M_subsample	/mnt/c/Users/guill/Desktop/course_dataset/SRR8668755_1M_subsample_fastqc.zip

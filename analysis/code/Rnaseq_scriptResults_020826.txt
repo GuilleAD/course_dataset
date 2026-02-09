@@ -1,0 +1,327 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+(base) guillermo@DESKTOP-LC14V5H:~$ conda activate rnaseq
+(rnaseq) guillermo@DESKTOP-LC14V5H:~$ cd /mnt/c/Users/guillermo/Desktop
+-bash: cd: /mnt/c/Users/guillermo/Desktop: No such file or directory
+(rnaseq) guillermo@DESKTOP-LC14V5H:~$ cd /mnt/c/Users/guill/Desktop
+(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop$ pwd
+/mnt/c/Users/guill/Desktop
+(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop$ cd course_datase
+-bash: cd: course_datase: No such file or directory
+(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop$ cd course_dataset
+(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop/course_dataset$ ls
+Homo_sapiens.GRCh38.cdna.all.fa   SRR8668755_1M_subsample_fastqc.html  SRR8668759.fastq.gz  SRR8668774.fastq.gz
+Homo_sapiens.GRCh38.cdna.index    SRR8668755_1M_subsample_fastqc.zip   SRR8668769.fastq.gz  SubsetData
+Index                             SRR8668756.fastq.gz                  SRR8668771.fastq.gz  readMapping.sh
+SRR8668755.fastq.gz               SRR8668757.fastq.gz                  SRR8668772.fastq.gz
+SRR8668755_1M_subsample.fastq.gz  SRR8668758.fastq.gz                  SRR8668773.fastq.gz
+(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop/course_dataset$ chmod 777 readMapping.sh
+(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop/course_dataset$ ./readMapping.sh
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+Started analysis of SRR8668755.fastq.gz
+Started analysis of SRR8668755_1M_subsample.fastq.gz
+Started analysis of SRR8668756.fastq.gz
+Started analysis of SRR8668757.fastq.gz
+Approx 5% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 10% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 15% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 20% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 25% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 30% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 35% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 40% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 45% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 50% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 55% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 60% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 65% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 70% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 75% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 80% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 85% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 90% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 95% complete for SRR8668755_1M_subsample.fastq.gz
+Approx 100% complete for SRR8668755_1M_subsample.fastq.gz
+Analysis complete for SRR8668755_1M_subsample.fastq.gz
+Started analysis of SRR8668758.fastq.gz
+Approx 5% complete for SRR8668758.fastq.gz
+Approx 5% complete for SRR8668755.fastq.gz
+Approx 10% complete for SRR8668758.fastq.gz
+Approx 5% complete for SRR8668756.fastq.gz
+Approx 5% complete for SRR8668757.fastq.gz
+Approx 15% complete for SRR8668758.fastq.gz
+Approx 20% complete for SRR8668758.fastq.gz
+Approx 10% complete for SRR8668755.fastq.gz
+Approx 10% complete for SRR8668756.fastq.gz
+Approx 25% complete for SRR8668758.fastq.gz
+Approx 10% complete for SRR8668757.fastq.gz
+Approx 30% complete for SRR8668758.fastq.gz
+Approx 35% complete for SRR8668758.fastq.gz
+Approx 15% complete for SRR8668755.fastq.gz
+Approx 15% complete for SRR8668756.fastq.gz
+Approx 40% complete for SRR8668758.fastq.gz
+Approx 15% complete for SRR8668757.fastq.gz
+Approx 45% complete for SRR8668758.fastq.gz
+Approx 20% complete for SRR8668755.fastq.gz
+Approx 50% complete for SRR8668758.fastq.gz
+Approx 20% complete for SRR8668756.fastq.gz
+Approx 55% complete for SRR8668758.fastq.gz
+Approx 20% complete for SRR8668757.fastq.gz
+Approx 60% complete for SRR8668758.fastq.gz
+Approx 25% complete for SRR8668755.fastq.gz
+Approx 65% complete for SRR8668758.fastq.gz
+Approx 25% complete for SRR8668756.fastq.gz
+Approx 25% complete for SRR8668757.fastq.gz
+Approx 70% complete for SRR8668758.fastq.gz
+Approx 75% complete for SRR8668758.fastq.gz
+Approx 30% complete for SRR8668755.fastq.gz
+Approx 30% complete for SRR8668756.fastq.gz
+Approx 80% complete for SRR8668758.fastq.gz
+Approx 30% complete for SRR8668757.fastq.gz
+Approx 85% complete for SRR8668758.fastq.gz
+Approx 35% complete for SRR8668755.fastq.gz
+Approx 90% complete for SRR8668758.fastq.gz
+Approx 35% complete for SRR8668756.fastq.gz
+Approx 95% complete for SRR8668758.fastq.gz
+Approx 35% complete for SRR8668757.fastq.gz
+Analysis complete for SRR8668758.fastq.gz
+Started analysis of SRR8668759.fastq.gz
+Approx 5% complete for SRR8668759.fastq.gz
+Approx 10% complete for SRR8668759.fastq.gz
+Approx 15% complete for SRR8668759.fastq.gz
+Approx 40% complete for SRR8668755.fastq.gz
+Approx 20% complete for SRR8668759.fastq.gz
+Approx 25% complete for SRR8668759.fastq.gz
+Approx 30% complete for SRR8668759.fastq.gz
+Approx 35% complete for SRR8668759.fastq.gz
+Approx 40% complete for SRR8668756.fastq.gz
+Approx 40% complete for SRR8668759.fastq.gz
+Approx 45% complete for SRR8668759.fastq.gz
+Approx 50% complete for SRR8668759.fastq.gz
+Approx 55% complete for SRR8668759.fastq.gz
+Approx 60% complete for SRR8668759.fastq.gz
+Approx 65% complete for SRR8668759.fastq.gz
+Approx 70% complete for SRR8668759.fastq.gz
+Approx 75% complete for SRR8668759.fastq.gz
+Approx 80% complete for SRR8668759.fastq.gz
+Approx 40% complete for SRR8668757.fastq.gz
+Approx 85% complete for SRR8668759.fastq.gz
+Approx 90% complete for SRR8668759.fastq.gz
+Approx 95% complete for SRR8668759.fastq.gz
+Analysis complete for SRR8668759.fastq.gz
+Started analysis of SRR8668769.fastq.gz
+Approx 45% complete for SRR8668755.fastq.gz
+Approx 45% complete for SRR8668756.fastq.gz
+Approx 45% complete for SRR8668757.fastq.gz
+Approx 5% complete for SRR8668769.fastq.gz
+Approx 50% complete for SRR8668755.fastq.gz
+Approx 50% complete for SRR8668756.fastq.gz
+Approx 50% complete for SRR8668757.fastq.gz
+Approx 10% complete for SRR8668769.fastq.gz
+Approx 55% complete for SRR8668755.fastq.gz
+Approx 55% complete for SRR8668756.fastq.gz
+Approx 55% complete for SRR8668757.fastq.gz
+Approx 15% complete for SRR8668769.fastq.gz
+Approx 60% complete for SRR8668755.fastq.gz
+Approx 60% complete for SRR8668756.fastq.gz
+Approx 60% complete for SRR8668757.fastq.gz
+Approx 65% complete for SRR8668755.fastq.gz
+Approx 20% complete for SRR8668769.fastq.gz
+Approx 65% complete for SRR8668756.fastq.gz
+Approx 70% complete for SRR8668755.fastq.gz
+Approx 65% complete for SRR8668757.fastq.gz
+Approx 25% complete for SRR8668769.fastq.gz
+Approx 70% complete for SRR8668756.fastq.gz
+Approx 75% complete for SRR8668755.fastq.gz
+Approx 30% complete for SRR8668769.fastq.gz
+Approx 70% complete for SRR8668757.fastq.gz
+Approx 75% complete for SRR8668756.fastq.gz
+Approx 80% complete for SRR8668755.fastq.gz
+Approx 35% complete for SRR8668769.fastq.gz
+Approx 75% complete for SRR8668757.fastq.gz
+Approx 80% complete for SRR8668756.fastq.gz
+Approx 85% complete for SRR8668755.fastq.gz
+Approx 40% complete for SRR8668769.fastq.gz
+Approx 80% complete for SRR8668757.fastq.gz
+Approx 85% complete for SRR8668756.fastq.gz
+Approx 90% complete for SRR8668755.fastq.gz
+Approx 45% complete for SRR8668769.fastq.gz
+Approx 90% complete for SRR8668756.fastq.gz
+Approx 85% complete for SRR8668757.fastq.gz
+Approx 95% complete for SRR8668755.fastq.gz
+Approx 50% complete for SRR8668769.fastq.gz
+Approx 95% complete for SRR8668756.fastq.gz
+Approx 90% complete for SRR8668757.fastq.gz
+Analysis complete for SRR8668755.fastq.gz
+Started analysis of SRR8668771.fastq.gz
+Approx 55% complete for SRR8668769.fastq.gz
+Analysis complete for SRR8668756.fastq.gz
+Started analysis of SRR8668772.fastq.gz
+Approx 95% complete for SRR8668757.fastq.gz
+Approx 5% complete for SRR8668771.fastq.gz
+Approx 5% complete for SRR8668772.fastq.gz
+Approx 60% complete for SRR8668769.fastq.gz
+Approx 10% complete for SRR8668771.fastq.gz
+Analysis complete for SRR8668757.fastq.gz
+Started analysis of SRR8668773.fastq.gz
+Approx 10% complete for SRR8668772.fastq.gz
+Approx 15% complete for SRR8668771.fastq.gz
+Approx 65% complete for SRR8668769.fastq.gz
+Approx 5% complete for SRR8668773.fastq.gz
+Approx 15% complete for SRR8668772.fastq.gz
+Approx 20% complete for SRR8668771.fastq.gz
+Approx 10% complete for SRR8668773.fastq.gz
+Approx 70% complete for SRR8668769.fastq.gz
+Approx 20% complete for SRR8668772.fastq.gz
+Approx 25% complete for SRR8668771.fastq.gz
+Approx 15% complete for SRR8668773.fastq.gz
+Approx 25% complete for SRR8668772.fastq.gz
+Approx 75% complete for SRR8668769.fastq.gz
+Approx 30% complete for SRR8668771.fastq.gz
+Approx 20% complete for SRR8668773.fastq.gz
+Approx 30% complete for SRR8668772.fastq.gz
+Approx 35% complete for SRR8668771.fastq.gz
+Approx 80% complete for SRR8668769.fastq.gz
+Approx 25% complete for SRR8668773.fastq.gz
+Approx 35% complete for SRR8668772.fastq.gz
+Approx 40% complete for SRR8668771.fastq.gz
+Approx 30% complete for SRR8668773.fastq.gz
+Approx 40% complete for SRR8668772.fastq.gz
+Approx 85% complete for SRR8668769.fastq.gz
+Approx 45% complete for SRR8668771.fastq.gz
+Approx 35% complete for SRR8668773.fastq.gz
+Approx 45% complete for SRR8668772.fastq.gz
+Approx 50% complete for SRR8668771.fastq.gz
+Approx 90% complete for SRR8668769.fastq.gz
+Approx 40% complete for SRR8668773.fastq.gz
+Approx 50% complete for SRR8668772.fastq.gz
+Approx 55% complete for SRR8668771.fastq.gz
+Approx 95% complete for SRR8668769.fastq.gz
+Approx 45% complete for SRR8668773.fastq.gz
+Approx 55% complete for SRR8668772.fastq.gz
+Approx 60% complete for SRR8668771.fastq.gz
+Approx 50% complete for SRR8668773.fastq.gz
+Approx 65% complete for SRR8668771.fastq.gz
+Approx 60% complete for SRR8668772.fastq.gz
+Analysis complete for SRR8668769.fastq.gz
+Started analysis of SRR8668774.fastq.gz
+Approx 70% complete for SRR8668771.fastq.gz
+Approx 55% complete for SRR8668773.fastq.gz
+Approx 65% complete for SRR8668772.fastq.gz
+Approx 75% complete for SRR8668771.fastq.gz
+Approx 60% complete for SRR8668773.fastq.gz
+Approx 70% complete for SRR8668772.fastq.gz
+Approx 5% complete for SRR8668774.fastq.gz
+Approx 80% complete for SRR8668771.fastq.gz
+Approx 65% complete for SRR8668773.fastq.gz
+Approx 75% complete for SRR8668772.fastq.gz
+Approx 85% complete for SRR8668771.fastq.gz
+Approx 80% complete for SRR8668772.fastq.gz
+Approx 70% complete for SRR8668773.fastq.gz
+Approx 10% complete for SRR8668774.fastq.gz
+Approx 90% complete for SRR8668771.fastq.gz
+Approx 85% complete for SRR8668772.fastq.gz
+Approx 75% complete for SRR8668773.fastq.gz
+Approx 95% complete for SRR8668771.fastq.gz
+Approx 90% complete for SRR8668772.fastq.gz
+Approx 80% complete for SRR8668773.fastq.gz
+Approx 15% complete for SRR8668774.fastq.gz
+Analysis complete for SRR8668771.fastq.gz
+Approx 95% complete for SRR8668772.fastq.gz
+Approx 85% complete for SRR8668773.fastq.gz
+Analysis complete for SRR8668772.fastq.gz
+Approx 90% complete for SRR8668773.fastq.gz
+Approx 20% complete for SRR8668774.fastq.gz
+Approx 95% complete for SRR8668773.fastq.gz
+Analysis complete for SRR8668773.fastq.gz
+Approx 25% complete for SRR8668774.fastq.gz
+Approx 30% complete for SRR8668774.fastq.gz
+Approx 35% complete for SRR8668774.fastq.gz
+Approx 40% complete for SRR8668774.fastq.gz
+Approx 45% complete for SRR8668774.fastq.gz
+Approx 50% complete for SRR8668774.fastq.gz
+Approx 55% complete for SRR8668774.fastq.gz
+Approx 60% complete for SRR8668774.fastq.gz
+Approx 65% complete for SRR8668774.fastq.gz
+Approx 70% complete for SRR8668774.fastq.gz
+Approx 75% complete for SRR8668774.fastq.gz
+Approx 80% complete for SRR8668774.fastq.gz
+Approx 85% complete for SRR8668774.fastq.gz
+Approx 90% complete for SRR8668774.fastq.gz
+Approx 95% complete for SRR8668774.fastq.gz
+Analysis complete for SRR8668774.fastq.gz
+
+Error: FASTA file not found Homo_sapiens.GRCh38.cdna.all.fa.gz
+kallisto 0.46.2
+Builds a kallisto index
+
+Usage: kallisto index [arguments] FASTA-files
+
+Required argument:
+-i, --index=STRING          Filename for the kallisto index to be constructed
+
+Optional argument:
+-k, --kmer-size=INT         k-mer (odd) length (default: 31, max value: 31)
+    --make-unique           Replace repeated target names with unique names
+
+[INFO   ]         multiqc : This is MultiQC v0.4
+[INFO   ]         multiqc : Prepending directory to sample names
+[INFO   ]         multiqc : Searching   : .
+[INFO   ]         multiqc : Report      : multiqc_report.html
+[INFO   ]         multiqc : Data        : multiqc_report_data
+[INFO   ]          fastqc : Found 11 reports
+[INFO   ]         multiqc : MultiQC complete
+Finished
+(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop/course_dataset(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop/course_dataset$ ls
+CL08      Homo_sapiens.GRCh38.cdna.all.fa      SRR8668759_fastqc.zip
+CL08.log  Homo_sapiens.GRCh38.cdna.index       SRR8668769.fastq.gz
+CL10      Index                                SRR8668769_fastqc.html
+CL10.log  SRR8668755.fastq.gz                  SRR8668769_fastqc.zip
+CL11      SRR8668755_1M_subsample.fastq.gz     SRR8668771.fastq.gz
+CL11.log  SRR8668755_1M_subsample_fastqc.html  SRR8668771_fastqc.html
+CL12      SRR8668755_1M_subsample_fastqc.zip   SRR8668771_fastqc.zip
+CL12.log  SRR8668755_fastqc.html               SRR8668772.fastq.gz
+CL13      SRR8668755_fastqc.zip                SRR8668772_fastqc.html
+CL13.log  SRR8668756.fastq.gz                  SRR8668772_fastqc.zip
+HS01      SRR8668756_fastqc.html               SRR8668773.fastq.gz
+HS01.log  SRR8668756_fastqc.zip                SRR8668773_fastqc.html
+HS02      SRR8668757.fastq.gz                  SRR8668773_fastqc.zip
+HS02.log  SRR8668757_fastqc.html               SRR8668774.fastq.gz
+HS03      SRR8668757_fastqc.zip                SRR8668774_fastqc.html
+HS03.log  SRR8668758.fastq.gz                  SRR8668774_fastqc.zip
+HS04      SRR8668758_fastqc.html               SubsetData
+HS04.log  SRR8668758_fastqc.zip                multiqc_report.html
+HS05      SRR8668759.fastq.gz                  multiqc_report_data
+(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop/course_dataset$ ./readMapping2.sh
+
+[build] loading fasta file Homo_sapiens.GRCh38.cdna.all.fa
+[build] k-mer length: 31
+[build] warning: clipped off poly-A tail (longer than 10)
+        from 4788 target sequences
+[build] warning: replaced 100008 non-ACGUT characters in the input sequence
+        with pseudorandom nucleotides
+[build] counting k-mers ... done.
+[build] building target de Bruijn graph ...  done
+[build] creating equivalence classes ...  done
+[build] target de Bruijn graph has 1650493 contigs and contains 126186949 k-mers
+
+[INFO   ]         multiqc : This is MultiQC v0.4
+[INFO   ]         multiqc : Prepending directory to sample names
+[INFO   ]         multiqc : Searching   : .
+[ERROR  ]         multiqc : MultiQC Report /mnt/c/Users/guill/Desktop/course_dataset/multiqc_report.html already exists.
+[INFO   ]         multiqc : Use -f or --force to overwrite existing reports
+Finished
+(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop/course_dataset$ -f
+-f: command not found
+(rnaseq) guillermo@DESKTOP-LC14V5H:/mnt/c/Users/guill/Desktop/course_dataset$
